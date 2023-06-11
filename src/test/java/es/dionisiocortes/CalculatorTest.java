@@ -1,7 +1,11 @@
 package es.dionisiocortes;
 
-import org.junit.jupiter.api.Test;
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.Assert.assertEquals;
+
+import org.junit.Test;
+
+//import org.junit.jupiter.api.Test;
+//import static org.junit.jupiter.api.Assertions.*;
 
 public class CalculatorTest {
 	private final Calculator sut = new Calculator();
