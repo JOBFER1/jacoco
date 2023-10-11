@@ -27,6 +27,6 @@ public class CalculatorTest {
 
 	@Test
 	public void division_should_divide_first_number_with_the_second() {
-		assertEquals(5, sut.division(40, 8));
+		assertEquals(555, sut.division(40, 8));
 	}
 }
